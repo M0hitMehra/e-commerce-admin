@@ -9,7 +9,7 @@ import { Check, ChevronsUpDown, PlusCircle, Store as StoreIcon } from "lucide-re
 import { cn } from "@/lib/utils"
 import { Command, CommandEmpty, CommandItem, CommandGroup, CommandInput, CommandList, CommandSeparator } from "@/components/ui/command"
 
-type PopoverTriggerProps = React.ComponentPropsWithoutRef<typeof Popover>
+type PopoverTriggerProps = React.ComponentPropsWithoutRef<typeof PopoverTrigger>
 
 interface StoreSwitcherProps extends PopoverTriggerProps {
     items: Store[],
