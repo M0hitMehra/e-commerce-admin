@@ -18,6 +18,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+    console.log("Running")
   return (
     <ClerkProvider>
       <html lang="en">
